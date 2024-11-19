@@ -1,3 +1,4 @@
+```
 CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 
 
@@ -263,3 +264,5 @@ made by You pursuant to subsection 3.2.
 
   8.6 This Licence shall not be enforceable except by a Licensor acting as
       such, and third party beneficiary rights are specifically excluded.
+
+```
