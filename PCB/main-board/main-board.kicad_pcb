@@ -2060,7 +2060,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_Every"
-			(at 18.5 -10.38 360)
+			(at 18.5 -10.38 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a813ddb-ea61-43c4-b00e-cd109e5fd3ec")
@@ -2438,7 +2438,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6aad9fea-3924-40d5-9eb3-6deb12bb486a")
 			(effects
