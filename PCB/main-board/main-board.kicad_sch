@@ -6484,7 +6484,6 @@
 	)
 	(label "SCL"
 		(at 81.28 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6495,7 +6494,6 @@
 	)
 	(label "SDA"
 		(at 81.28 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6506,7 +6504,6 @@
 	)
 	(label "SDA"
 		(at 193.04 77.47 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6514,6 @@
 	)
 	(label "SCL"
 		(at 204.47 77.47 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10191,7 +10187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "library:128x64OLED"
+		(property "Footprint" "SSD1306:128x64OLED"
 			(at 196.85 60.96 0)
 			(effects
 				(font
