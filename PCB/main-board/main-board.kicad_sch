@@ -5874,6 +5874,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 44.45) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9930446-fae5-4d1b-b15d-38cc18b45e77")
+	)
+	(wire
+		(pts
 			(xy 175.26 48.26) (xy 175.26 54.61)
 		)
 		(stroke
@@ -5921,6 +5931,16 @@
 			(type default)
 		)
 		(uuid "bf1c73ac-e343-44cf-abbc-3f6dcf213e87")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfda783a-fff4-4a6c-8c37-3ac3208ce6ee")
 	)
 	(wire
 		(pts
@@ -7151,7 +7171,7 @@
 			(at 138.938 122.428 0)
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -7160,7 +7180,7 @@
 			(at 138.684 123.698 0)
 			(effects
 				(font
-					(size 0.6 0.6)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -8102,7 +8122,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 118.11 46.99 90)
+		(at 118.11 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8111,7 +8131,7 @@
 		(fields_autoplaced yes)
 		(uuid "24b6d837-7407-4cc7-a453-0d63ec06cb54")
 		(property "Reference" "D2"
-			(at 120.65 45.7199 90)
+			(at 120.65 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8120,7 +8140,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 120.65 48.2599 90)
+			(at 120.65 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8129,7 +8149,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 122.555 46.99 0)
+			(at 122.555 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +8158,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 118.11 46.99 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8167,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 118.11 46.99 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8176,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 46.99 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8185,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 46.99 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8640,7 @@
 			(at 128.524 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -8629,7 +8649,7 @@
 			(at 128.27 124.206 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -9346,22 +9366,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61e3df03-0bca-4ecf-b987-1004429fb034")
 		(property "Reference" "C13"
-			(at 111.76 46.3549 0)
+			(at 99.568 47.752 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
-			(at 111.76 48.8949 0)
+		(property "Value" "10uf 35V"
+			(at 97.536 49.53 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -10167,7 +10186,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93a640bf-2eb6-4935-b7ce-3957e9c20ad4")
 		(property "Reference" "Brd1"
 			(at 204.47 53.3399 0)
@@ -10187,8 +10205,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSD1306:128x64OLED"
-			(at 196.85 60.96 0)
+		(property "Footprint" "library:128x64OLED"
+			(at 197.612 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +10831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PN2222A"
+		(property "Value" "2N2222A"
 			(at 54.61 142.2399 0)
 			(effects
 				(font
@@ -11098,7 +11116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+		(property "Footprint" "Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450"
 			(at 201.93 125.73 0)
 			(effects
 				(font
