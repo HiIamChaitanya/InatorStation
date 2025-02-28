@@ -1,8 +1,6 @@
 # InatorStation  
 
-Hey! this is my open-source soldering station design. This project marks my transition to open-source hardware.  InatorStation is designed to be versatile, repairable, and upgradable. It currently supports the T12 handle, with plans to expand compatibility to the JBC T210 handle in the future. 
-The design files and firmware are fully open-source, allowing you to customize, repair, or upgrade the station to suit your needs. 
-I mostly prefer home brewed pcb for repeatability but later versions will use 4 layer due to complex design.
+Hey! This is my open-source soldering station design. This project marks my transition to open-source hardware.  InatorStation is designed to be versatile, repairable, and upgradable. It currently supports the T12 handle, with plans to expand compatibility to the JBC T210 handle in the future. The design files and firmware are fully open-source, allowing you to customize, repair, or upgrade the station to suit your needs. I mostly prefer 2 layer home-brewed PCB for repeatability, but later versions will use 4 layers due to complex design (upgrading handle and adding some sensors for precise work).
 
 ### Specifications  
 
